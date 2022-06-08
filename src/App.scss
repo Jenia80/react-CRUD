@@ -1,0 +1,27 @@
+.table {
+
+  &--row {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+  } 
+}
+
+.form {
+  display: block;
+  margin-top: 10px;
+  width: max-content;
+
+  &--field {
+    margin-bottom: 10px;
+  }
+}
+
+.button {
+  display: block;
+  width: 100%;
+
+  &:hover {
+    background-color: aqua;
+  }
+}
